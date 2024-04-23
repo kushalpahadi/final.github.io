@@ -1,0 +1,38 @@
+@import "./universal";
+
+.home__banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 5rem 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1150px) {
+    height: 60vh;
+  }
+
+  &__title {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+    font-size: 9.2vh;
+    color: white;
+
+    @media (max-width: 1150px) {
+      font-size: 5.5rem;
+    }
+    @media (max-width: 500px) {
+      font-size: 3.5rem;
+    }
+  }
+  &__image {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}

@@ -1,0 +1,69 @@
+@import "./universal";
+
+.footer {
+  position: relative;
+  //   min-height: 100vh;
+  width: 100%;
+  padding: 4rem 8% 6rem 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+  font-family: "Manjari";
+  background-color: #e3ded0;
+
+  &__logo {
+    height: 6.5rem;
+  }
+
+  &__body {
+    display: flex;
+    width: 100%;
+    gap: 30%;
+    border-bottom: 1px solid #c29b5b;
+    border-top: 1px solid #c29b5b;
+    padding: 1.5rem 0;
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      gap: 6vh;
+    }
+
+    &__cl {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+
+      &__header {
+        font-size: 4vh;
+        width: fit-content;
+
+        &--active {
+          border-bottom: 3px solid #c29a5b;
+        }
+      }
+
+      &__list {
+        list-style: none;
+      }
+      &__links {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.728);
+        font-weight: 700;
+        font-size: 2.6vh;
+      }
+    }
+  }
+
+  &__footer {
+    &__header {
+      font-size: 4vh;
+    }
+
+    &__body {
+      color: rgba(0, 0, 0, 0.728);
+      font-weight: 700;
+      font-size: 1.7vh;
+    }
+  }
+}

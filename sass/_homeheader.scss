@@ -1,0 +1,51 @@
+@import "./universal";
+.home__header {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding: 14vh 8% 0 8%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  &__image {
+    height: 55vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 3.5rem;
+
+    @media (max-width: 600px) {
+      height: 50vh;
+    }
+  }
+  &__title {
+    font-family: "Dancing Script", cursive;
+    font-size: 7vh;
+    text-align: center;
+
+    @media (max-width: 600px) {
+      font-size: 5rem;
+      margin-bottom: 20px;
+    }
+  }
+  &__label {
+    font-size: 4vh;
+    @media (max-width: 600px) {
+      font-size: 2rem;
+    }
+    &__lines {
+      width: 5rem;
+      height: 0.5rem;
+      background-color: #c29a5b;
+      border-radius: 1rem;
+    }
+
+    &--container {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+}

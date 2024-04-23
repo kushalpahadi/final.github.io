@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- //main style-->
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <!-- end style -->
+    <title>saugat</title>
+  </head>
+  <body>
+    <!-- navber -->
+    <nav class="navbar">
+      <div class="navbar__logo--container">
+        <img src="./images/etticalogo.png" alt="" class="navbar__logo" />
+      </div>
+      <ul class="navbar__lists">
+        <li class="navbar__list">
+          <a href="./index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__list">
+          <div class="navbar__links" id="services__dropper">
+            services
+            <div class="dropdown">
+              <a href="./services.html" class="dropdown__link">Bed Room</a>
+              <a href="./services.html" class="dropdown__link">Bathrooom</a>
+              <a href="./services.html" class="dropdown__link">Kitchen</a>
+              <a href="./services.html" class="dropdown__link">Living Room</a>
+            </div>
+          </div>
+        </li>
+        <li class="navbar__list">
+          <a href="./aboutus.html" class="navbar__links">About Us</a>
+        </li>
+        <li class="navbar__list">
+          <a href="" class="navbar__links">portfolio</a>
+        </li>
+        <li class="navbar__list">
+          <a href="./login.html" class="navbar__links navbar__list--active"
+            >Log In</a
+          >
+        </li>
+      </ul>
+      <div class="navbar__menu__icon btn--open">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- navbarend -->
+
+    <!-- //menu -->
+    <div class="menu">
+      <div class="menu__nav">
+        <i class="fa-solid fa-x btn--close"></i>
+      </div>
+      <ul class="main__menu">
+        <li class="menu__list">
+          <a href="./index.html" class="menu__link">Home</a>
+        </li>
+        <li class="menu__list">
+          <a href="./services.html" class="menu__link">Services</a>
+        </li>
+
+        <li class="menu__list">
+          <a href="./aboutus.html" class="menu__link">About Us</a>
+        </li>
+        <li class="menu__list">
+          <a href="#" class="menu__link">Portfolio </a>
+        </li>
+        <li class="menu__list">
+          <a href="./login.html" class="menu__link menu__link--active"
+            >Log In</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!-- menu end  -->
+
+    <!-- mainstart -->
+    <div class="main">
+      <div class="login__wrapper">
+        <form action="" class="login">
+          <img src="./images/etticalogo.png" alt="" class="login__image" />
+          <h1 class="login__header">Log In</h1>
+          <div class="login__container">
+            <div class="login__input__row">
+              <label for="formemail" class="login__input__row__label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="login__input__row__input"
+                name="formemail"
+              />
+            </div>
+            <div class="login__input__row">
+              <label for="formpassword" class="login__input__row__label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="login__input__row__input"
+                name="formpassword"
+              />
+            </div>
+            <a href="#" class="login__forgotpassword">Forgot your Password?</a>
+            <button class="login__button" type="submit">Log In</button>
+
+            <p class="login__label">OR</p>
+            <div class="login__icons">
+              <i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-facebook"></i
+              ><i class="fa-brands fa-google"></i>
+            </div>
+            <a href="#" class="login__signup">Need An Account?Sign Up</a>
+          </div>
+        </form>
+      </div>
+      <!-- end -->
+
+      <!-- footer  -->
+      <div class="footer">
+        <img src="./images/etticalogo.png" alt="" class="footer__logo" />
+        <div class="footer__body">
+          <div class="footer__body__cl">
+            <h1
+              class="footer__body__cl__header footer__body__cl__header--active"
+            >
+              Home
+            </h1>
+            <ul class="footer__body__cl__lists">
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">Services</a>
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">About Us</a>
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">Portfolio</a>
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__body__cl">
+            <h1 class="footer__body__cl__header">Services</h1>
+            <ul class="footer__body__cl__lists">
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">Bedroom</a>
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">Bathroom</a>
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">Kitchen</a>
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">LivingRoom</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__body__cl">
+            <h1 class="footer__body__cl__header">Contact</h1>
+            <ul class="footer__body__cl__lists">
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links"
+                  >Ettica (Italian area)</a
+                >
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">+39-052-369-998</a>
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links">Info@ettica.co.it</a>
+              </li>
+              <li class="footer__body__cl__list">
+                <a href="" class="footer__body__cl__links"
+                  >Via della Magliana, 000,Italy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__footer">
+          <h1 class="footer__footer__header">Privacy & Policy</h1>
+          <p class="footer__footer__body">
+            The content, design, and other works on this website are the
+            property of Ettica and are protected by copyright law. All material
+            on this site, including but not limited to text, images, graphics,
+            audio, and video files, is owned by Ettica or its content providers
+            and is protected by applicable copyright laws. <br />
+            You may not reproduce, distribute, display, or otherwise use any
+            materials on this website without the prior written permission of
+            Ettica. Unauthorized use of any materials from this website may
+            violate copyright, trademark, and other laws. <br />
+            For inquiries regarding the use of content from this website, please
+            contact us at [your contact email]. Ettica is a registered
+            trademark. All other trademarks, service marks, and logos used in
+            this site are the trademarks, service marks, or logos of their
+            respective owners. <br />
+            By accessing this website, you agree to abide by all copyright
+            notices and other proprietary rights information contained on this
+            site. <br />
+            Thank you for respecting our intellectual property rights.
+          </p>
+        </div>
+      </div>
+      <!-- endof footer  -->
+    </div>
+    <!-- mainend -->
+
+    <!-- //gsap  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- trigger  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- this website was made by  @kushal360_ -->
+
+    <!--font awesome -->
+    <script
+      src="https://kit.fontawesome.com/bc8b43e70e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- main  -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

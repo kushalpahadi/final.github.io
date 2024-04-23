@@ -1,0 +1,180 @@
+@import "./universal";
+.services__header {
+  position: relative;
+
+  width: 100%;
+  padding: 20vh 8% 5rem 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: #c29a5b;
+    font-size: 21vh;
+    line-height: 24vh;
+    font-weight: 400;
+
+    @media (max-width: 1024px) {
+      font-size: 15rem;
+      line-height: 15rem;
+    }
+    @media (max-width: 600px) {
+      font-size: 10rem;
+      line-height: 10rem;
+    }
+    @media (max-width: 400px) {
+      font-size: 7rem;
+    }
+  }
+
+  &__label {
+    font-weight: 400;
+    font-size: 5vh;
+
+    @media (max-width: 1024px) {
+      font-size: 3vh;
+    }
+  }
+}
+
+.services__body {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding: 5rem 8% 9rem 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  @media (max-width: 1024px) {
+    gap: 3rem;
+  }
+}
+
+.services__row {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    font-size: 5.4vh;
+    font-weight: 400;
+    margin-bottom: 5vh;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__images {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      gap: 3rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__image {
+    object-fit: cover;
+    height: 50vh;
+    width: 23%;
+    @media (max-width: 1024px) {
+      width: 100%;
+      height: 30vh;
+    }
+  }
+  &__body {
+    font-size: 5vh;
+    line-height: 5vh;
+    color: rgba(0, 0, 0, 0.807);
+    font-weight: 400;
+    margin-bottom: 11vh;
+
+    @media (max-width: 1024px) {
+      font-size: 3rem;
+      margin-bottom: 5vh;
+    }
+  }
+
+  &__button {
+    width: 23%;
+
+    border: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    background-color: #5c4d46;
+
+    font-family: "News Cycle", sans-serif;
+    font-weight: 700;
+    font-size: 5vh;
+    outline: none;
+    cursor: pointer;
+    @media (max-width: 1024px) {
+      width: 100%;
+      font-size: 2rem;
+    }
+
+    padding: 2rem;
+    &--container {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      @media (max-width: 1024px) {
+        flex-direction: column;
+        gap: 2rem;
+      }
+    }
+  }
+}
+
+.btn1 {
+  background-color: #353535;
+}
+.btn2 {
+  background-color: #476b5c;
+}
+.btn3 {
+  background-color: #362b25;
+}
+.btn4 {
+  background-color: #9e6a3c;
+}
+.btn5 {
+  background-color: #675555;
+}
+.btn6 {
+  background-color: #244c20;
+}
+.btn7 {
+  background-color: #6b2874;
+}
+.btn8 {
+  background-color: #5177f5;
+}
+.btn9 {
+  background-color: #716c66;
+}
+.btn10 {
+  background-color: #926834;
+}
+.btn11 {
+  background-color: #1d2511;
+}
+.btn12 {
+  background-color: #caae94;
+}
+.btn13 {
+  background-color: #d1c6bf;
+}
+.btn14 {
+  background-color: #b98a44;
+}
+.btn15 {
+  background-color: #3e4b68;
+}
+.btn16 {
+  background-color: #38454e;
+}

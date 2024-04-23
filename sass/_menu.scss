@@ -1,0 +1,50 @@
+.menu {
+  position: fixed;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  z-index: 500;
+  left: -100%;
+  width: 100%;
+}
+
+.menu__nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+  height: 85px;
+  padding: 6vh 8%;
+}
+
+.btn--close {
+  font-size: 5vh;
+  cursor: pointer;
+}
+
+.main__menu {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 10vh 5%;
+}
+
+.menu__list {
+  list-style: none;
+  padding: 1rem 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.menu__link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 5vh;
+  font-weight: 3rem;
+
+  @media (max-width: 330px) {
+    font-size: 2.5rem;
+  }
+}
+
+.menu__link--active {
+  color: #c29a5b;
+}
